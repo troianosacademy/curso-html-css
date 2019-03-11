@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox - Direction</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            border: 3px solid #000;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color:green;
+            color: #fff;
+            font-size: 30px;
+            border:2px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    
+</body>
+</html>

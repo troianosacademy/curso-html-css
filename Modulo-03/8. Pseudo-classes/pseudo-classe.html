@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo-classes</title>
+
+    <style>
+        .btn {
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-decoration: none;
+          color: #000;
+          border: 0;
+          padding: 15px 0;
+          margin: 0;
+          text-align: center;
+          width: 200px;
+          background-color: aqua;
+          display: inline-block;
+        }
+        .btn:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+        }
+
+        input {
+            width: 500px;
+            padding:20px;
+            font-size: 20px;
+            border: 2px solid #000;
+            outline: none;
+        }
+        input:focus {
+            border-color: red;
+        }
+        input:active {
+            border-color: blue;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    
+        <a href="#" class="btn">Botão 01</a>
+        <br><br>
+
+        <button class="btn">Botão 02</button>
+        <br><br>
+
+        <input type="text" placeholder="Digite seu nome">
+</body>
+</html>

@@ -1,0 +1,177 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #efefef;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 32px;
+    position: fixed;
+}
+.actions {
+    display: flex;
+}
+.header-link {
+    color: #888;
+    margin-right: 30px;
+}
+.header-link:hover {
+    color: #444;
+}
+.header-login,
+.header-account {
+    padding: 28px 40px;
+}
+.header-login {
+    background-color: #efefef;
+}
+.header-account {
+    background-color: purple;
+    color: #fff;
+}
+
+/* COMUM */
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.session, 
+.container {
+    height: 100vh;
+}
+.divider {
+    width: 50%;
+}
+.img-app {
+    width: 380px;
+}
+.img-right {
+    display: block;
+    margin-left: auto;
+}
+
+.headline {
+    font-size: 50px;
+    color: #666;
+    font-weight: 400;
+}
+.text-mark {
+    color: #6000ff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* SESSION 01 */
+
+.label {
+    color: #fff;
+    background-color: #6000ff;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+/* SESSION 02 */
+.session-2 {
+    background-color: #fff;
+}
+.img-session-2 {
+    width: 300px;
+}
+.self-end {
+    align-self: flex-end;
+}
+/* SESSION 03 */
+.session-3 {
+    background-color: #6000ff;
+}
+.session-3 .headline {
+    color: pink;
+}
+
+
+
+/* SESSION 04 */
+.session-4 {
+    width: 100%;
+    background-image: url('imagens/equipe.png');
+    background-repeat: no-repeat;
+}
+
+/* SESSION 05 */
+.session-5 {
+    width: 100%;
+    background-image: url('imagens/escritorio.png');
+    background-repeat: no-repeat;
+}
+/* FOOTER */
+.footer {
+    padding: 100px 0;
+    background-color: #6000ff;
+}
+.footer .container,
+.footer-end .container  {
+    height: auto;
+    align-items: flex-start;
+}
+.footer-list {
+    width: 300px;
+    list-style: none;
+}
+.footer-item {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+.footer-link {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+}
+.footer-end {
+    padding: 50px 0;
+    width: 100%;
+    background-color: #7e35f4;
+}
+.social-link {
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    margin-right: 15px;
+}
+.footer-end .container {
+    justify-content: space-between;
+}

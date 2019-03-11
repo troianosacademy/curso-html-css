@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo-elemento</title>
+
+    <style>
+        p {
+            font-size: 40px;
+        }
+
+        p:first-line {
+            color: red;
+        }
+        p::first-letter {
+            font-size: 80px;
+        }
+
+        p:after {
+            content: '';
+            width: 24px;
+            height: 24px;
+            background-image: url('success.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            margin-right: 30px;
+        }
+      
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ullam numquam ratione repellat nesciunt quia consequuntur quis, nisi odio dolore odit incidunt distinctio vitae rerum, possimus mollitia neque, expedita minima!</p>
+    
+</body>
+</html>

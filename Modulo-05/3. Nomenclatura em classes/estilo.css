@@ -1,0 +1,29 @@
+.text-center {
+    text-align: center;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+/* Base */
+.btn {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Style */
+.btn-green {
+    background-color: green;
+    color: #000;
+}
+.btn-green:hover {
+    background-color: aqua;
+}
+/* Modify */
+.btn-large {
+    height: 30px;
+    font-size: 20px;
+    padding: 30px;
+}
